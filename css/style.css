@@ -40,11 +40,11 @@ h1 {
 
 
 section{    
-    background-color: brown;
+    background-color:antiquewhite;
     padding: 400px;
     margin: 20px;
     padding: 15px;
-    border: 1px saddlebrown;
+    border: 1px antiquewhite;
     border-radius: 10px;
 }
 
@@ -127,7 +127,7 @@ th{
   margin: 0;                  
   padding: 15px;
   text-align: center;
-  background-color: #fca5a5;  
+  background-color: #f7cbcb;  
   border-radius: 12px;
   overflow: hidden;           
 }
@@ -152,12 +152,12 @@ main {
 }
 section {
     width: 90%;
-    max-width: 1100px; /* Limite de ancho para todo el sitio */
-    margin: 0 auto;    /* Centra todo en la pantalla */
+    max-width: 1100px; 
+    margin: 0 auto;    
 }
 section {
-    margin-bottom: 30px; /* <--- Añade esto para separarlas verticalmente */
+    margin-bottom: 30px; 
 }
 .section {
-    margin-bottom: 30px; /* <--- Añade esto para separarlas verticalmente */
+    margin-bottom: 30px; 
 }

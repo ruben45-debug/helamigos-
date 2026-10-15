@@ -86,7 +86,7 @@
     </article>
     </section>
     <hr>
-    <section class="" id="prom">
+    <section class="seccion" id="prom">
         <article class="prom">
     <h2>Promoción según el día</h2>
 
