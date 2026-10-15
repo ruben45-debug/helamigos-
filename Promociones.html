@@ -1,69 +1,101 @@
-<title>Promociones</title>
-<link rel="stylesheet" href="css/style.css">
-<p>aqui puede saber cuando nuestros helados estarana un precio bajo</p>
-<p>para que todos nuestros clientes puedan disfrutar algun evento especial</p>
-<section class="seccion" id="promociones">
-     </section>
-    <h1>sabores disponibles</h1>
-    <div class="contenedor-sabores">
-    <section class="seccion" id="chicle">
-    <ul>
-    <li><h1>Chicle</h1></li>
-    <P>Precio: $4000</P>
-    <img src="img/chicle.jpg" alt="99">
-    </ul>
-    </section>
-    
-    <section class="seccion" id="ron">
-    <ul>
-    <li><h1>ron con pasas</h1></li>
-    <P>Precio: $4000</P>
-    <img src="img/RON.jpg" alt="99">  
-    </ul>
-    </section>
-    
-    <section class="seccion" id="arandano">
-    <ul>
-    <li><h1>arandano</h1></li>
-    <P>Precio: $4000</P>
-    <img src="img/arandano.jpg" alt="99">  
-    </ul>
-    </section>
 
-    <section class="seccion" id="vainilla">
-    <ul>
-    <li><h1>vainilla</h1></li>
-    <P>Precio: $4000</P>
-    <img src="img/vainilla.jpg" alt="99">
-    </ul>
-    </section>
-    </div>
-    <h2>Nuestras promociones:</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Mes especial</th>
-                <th>Dia especial</th><!-- fila  -->
-                <th>Fechas de los meses</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Amor y la amistad</td>
-                <td>Miércoles de Toppings</td>
-                <td>Septiembre</td>
+<!DOCTYPE html>
+<html lang="es">
+<head>
 
-            </tr><!-- columna  -->
-            <tr>
-                <td>Mes de la madre</td>
-                <td>Jueves de Malteadas</td>
-                <td>Mayo</td>
-            </tr>
-            <tr>
-                <td>Mes del niño</td>
-                <td>Viernes de Amigos</td>
-                <td>Abril</td>
-            </tr>
-        </tbody>
-    </table>
-</section>
+<head>
+    <title>Helamigos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="encabezado">
+        <h1>Promociones Helamigos</h1>
+        <p>¡Disfruta tus helados favoritos!</p>
+    </header>
+
+    <main>
+       
+            <h2>Sabores disponibles</h2>
+
+            <div class="contenedor-sabores">
+                <section class="seccion" id="chicle">
+                <article class="chicle">
+                    <h3>Chicle</h3>
+                    <p class="precio">$7.000</p>
+                    <img src="img/chicle.jpg" alt="Helado de chicle">
+
+                </article>
+                </section>
+                <section class="seccion" id="ron">
+                <article class="ron">
+                    <h3>Ron con pasas</h3>
+                    <p class="precio">$4.000</p>
+                    <img src="img/RON.jpg" alt="Helado de ron con pasas">
+                </article>
+                </section>
+                <section class="seccion" id="arandano">
+                <article class="arandano">
+                    <h3>Arándano</h3>
+                    <p class="precio">$10.000</p>
+                    <img src="img/arandano.jpg" alt="Helado de arándano">
+                </article>
+                </section>
+                <section class="seccion" id="vainilla">
+                <article class="vainilla">
+                    <h3>Vainilla</h3>
+                    <p class="precio">$3.000</p>
+                    <img src="img/vainilla.jpg" alt="Helado de vainilla">
+                </article>
+                </section>
+
+            </div>
+     
+
+        <section class="seccion">
+            <h2>Nuestras promociones</h2>
+
+            <p>
+                En Helamigos tenemos promociones para que todos
+                nuestros clientes disfruten de momentos especiales.
+            </p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th>Mes especial</th>
+                        <th>Dias de promocion</th>
+                        <th>Fecha del mes</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Amor y amistad</td>
+                        <td>Miércoles de toppings</td>
+                        <td>Septiembre</td>
+                    </tr>
+                    <tr>
+                        <td>Mes de la madre</td>
+                        <td>Jueves de malteadas</td>
+                        <td>Mayo</td>
+                    </tr>
+                    <tr>
+                        <td>Mes del niño</td>
+                        <td>Viernes de amigos</td>
+                        <td>Abril</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <a class="boton" href="index.php">Volver al inicio</a>
+    </main>
+
+    <footer class="pie">
+        <p>Helamigos - Pasto, Nariño</p>
+        <p>Teléfono ficticio: 300 000 0000</p>
+    </footer>
+
+</body>
+</html>
